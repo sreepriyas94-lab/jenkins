@@ -1,2 +1,2 @@
 FROM nginx:latest
-COPY ./html /home/vboxuser/jenkins
+COPY index.html /usr/share/nginx/html/
